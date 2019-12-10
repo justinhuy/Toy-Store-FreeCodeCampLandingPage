@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(img/teddy-bear-background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    overflow: scroll;
+    color: #000;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.box {
+    padding: 1%;
+}
+
+nav {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
+    background-color: cadetblue;
+    z-index: 9999;
+    padding: 15px 40px;
+}
+
+.logo {
+    float: left;
+}
+
+h1 {
+    display: inline-block;
+    position: relative;
+    bottom: 13px;
+}
+
+#teddy-bear-icon {
+    width: 50px;
+}
+
+.main-nav {
+    float: right;
+    margin-top: 17px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+li a:link,
+li a:visited {
+    text-decoration: none;
+    font-size: 120%;
+    color: #000;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+li a:hover,
+li a:active {
+    color: #e67e22;
+    border-bottom: 2px solid #e67e22;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+.hero-section {
+    margin: 150px auto 50px;
+}
+
+.hero {
+    margin: 30px auto;
+    text-align: center;
+}
+
+#hero-h2 {
+    font-size: 200%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#email {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+    margin: 0 0 20px;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-size: 110%;
+    font-weight: bolder;
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    border: 0;
+    background-color: #f1c40f;
+    transition: background-color 0.6s;
+}
+
+.btn:hover {
+    background-color: #746218;
+}
+
+.information-section {
+    background-color: rgba(95, 158, 160, 0.441);
+    margin: 0 10%;
+    border: 0;
+    border-radius: 5px;
+    font-size: 110%;
+}
+
+.icon {
+    margin: 0 0 0 5%;
+    float: left;
+}
+
+ion-icon {
+    width: 120px;
+    height: 70px;
+    color: #f0932b;
+}
+
+.text-section {
+    margin-bottom: 40px;
+}
+
+.text {
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 16px;
+    color: #dff9fb;
+}
+
+.video {
+    text-align: center;
+}
+
+.price-box {
+    border: solid 1px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.price {
+    text-align: center;
+    margin: 0 15%;
+}
+
+
+.level {
+    margin: 0;
+    font-size: 120%;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.bear-name {
+    background-color: #ddd;
+    border-radius: 5px 5px 0 0;
+}
+
+.plan-price {
+    margin: 20px auto;
+    font-size: 150%;
+    font-weight: 700;
+}
+
+.description {
+    text-align: center;
+}
+
+.description li {
+    list-style: none;
+    margin: 10px auto;
+}
+
+.btn-small {
+    width: 60%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: rgba(95, 158, 160, 0.441);
+    padding: 20px;
+    margin: 0 10%;
+}
+
+.link {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 15px;
+}
+
+.link li {
+    list-style: none;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+span {
+    display: flex;
+    justify-content: flex-end;
+}
+
